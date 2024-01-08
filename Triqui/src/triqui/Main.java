@@ -219,9 +219,9 @@ public class Main {
             }
         }
         
-        System.out.println("-----------------------");
-        System.out.println("-REGLAS CHIQUISTRIQUIS-");
-        System.out.println("-----------------------");
+        System.out.println("-----------------");
+        System.out.println("--REGLAS TRIQUI--");
+        System.out.println("-----------------");
         System.out.println("Siempre comenzara el turno el Jugador X");
         System.out.println("Dependiendo de donde quieras colocar tu turno deberás de usar números como en el siguiente ejemplo");
         System.out.println("No puedes colocar un turno en una casilla ya utilizada");
