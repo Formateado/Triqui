@@ -47,14 +47,14 @@ public class Main {
     }
     
   //Triqui
-    static String matrizTriqui[][] = new String[3][3];
+    static String[][] matrizTriqui = new String[3][3];
     
     public static void iniciarTriqui() {
     	Scanner inTriqui = new Scanner(System.in);
     	Boolean flagEleccionPunto = false, flagRepetirTriqui = false, ganadorOEmpate = false;
     	String turn = "-", Ganador = "-", GanadorG = "-";
     	int eleccionPunto = 0, acumuladorSeguirJugando = 0, seguirJugando = 0;
-    	int T[] = new int[9];
+    	int[] T = new int[9];
 
     	flagRepetirTriqui = true;
     	while(flagRepetirTriqui) {
@@ -210,7 +210,7 @@ public class Main {
         
         Scanner inReglas = new Scanner(System.in);
         
-        int matrizReglas[][] = new int[3][3];
+        int[][] matrizReglas = new int[3][3];
         int acumuladorReglas = 0;
         for(int i = 0; i < 3; i++){
             for(int j = 0; j < 3; j++){
